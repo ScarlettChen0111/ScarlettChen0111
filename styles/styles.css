@@ -1394,6 +1394,10 @@ html {
   .w3-hover-text-blue:hover {
     color: #2196f3 !important;
   }
+  .w3-text-navy,
+  .w3-hover-text-navy:hover {
+    color: #0000d6 !important;
+  }
   .w3-text-light-blue,
   .w3-hover-text-light-blue:hover {
     color: #87ceeb !important;
@@ -1446,8 +1450,17 @@ html {
   }
   .w3-text-purple,
   .w3-hover-text-purple:hover {
-    color: #9c27b0 !important;
+    color: #9001f5 !important;
   }
+  .w3-text-rose,
+  .w3-hover-text-purple:hover {
+    color: #ff0178 !important;
+  }
+  .w3-text-lavender,
+  .w3-hover-text-purple:hover {
+    color: #d292ff !important;
+  }
+
   .w3-text-deep-purple,
   .w3-hover-text-deep-purple:hover {
     color: #673ab7 !important;

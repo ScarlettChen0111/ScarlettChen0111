@@ -1213,8 +1213,8 @@ html {
     float: right !important;
   }
   .w3-button:hover {
-    color: #000 !important;
-    background-color: #ccc !important;
+    color: #fe00ea !important;
+    background-color: #9001f5 !important;
   }
   .w3-transparent,
   .w3-hover-none:hover {
@@ -1304,7 +1304,27 @@ html {
   .w3-purple,
   .w3-hover-purple:hover {
     color: #fff !important;
-    background-color: #9c27b0 !important;
+    background-color: #9001f5 !important;
+  }
+  .w3-navy,
+  .w3-hover-navy:hover {
+    color: #fff !important;
+    background-color: #01008e !important;
+  }
+  .w3-dark-navy,
+  .w3-hover-dark-navy:hover {
+    color: #fff !important;
+    background-color: #00003f!important;
+  }
+  .w3-rose,
+  .w3-hover-rose:hover {
+    color: #fff !important;
+    background-color: #ff0178 !important;
+  }
+  .w3-neon-pink,
+  .w3-hover-neon-pink:hover {
+    color: #fff !important;
+    background-color: #fe00ea !important;
   }
   .w3-deep-purple,
   .w3-hover-deep-purple:hover {
@@ -1459,6 +1479,10 @@ html {
   .w3-text-lavender,
   .w3-hover-text-purple:hover {
     color: #d292ff !important;
+  }
+  .w3-text-neon-pink,
+  .w3-hover-text-purple:hover {
+    color: #fe00ea !important;
   }
 
   .w3-text-deep-purple,

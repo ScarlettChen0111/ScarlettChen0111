@@ -17,7 +17,7 @@
                 
                 
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #00003f;}
@@ -37,19 +37,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
   <!--Icons-->
   <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-home w3-xxlarge" style="color:#9001f5;"></i>
-    <p style="color:#d292ff">HOME</p>
+    <p style="color:#d292ff; font-family:'Earth Orbiter'">HOME</p>
   </a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user w3-xxlarge" style="color:#9001f5"></i>
-    <p style="color:#d292ff">ABOUT</p>
+    <p style="color:#d292ff; font-family:'Earth Orbiter'">ABOUT</p>
   </a>
   <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge" style="color:#9001f5;"></i>
-    <p style="color:#d292ff">PROJECTS</p>
+    <p style="color:#d292ff; font-family:'Earth Orbiter'">PROJECTS</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge" style="color:#9001f5;"></i>
-    <p style="color:#d292ff">CONTACT</p>
+    <p style="color:#d292ff; font-family:'Earth Orbiter'">CONTACT</p>
   </a>
 </nav>
 
@@ -58,10 +58,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">CONTACT</a>
   </div>
 </div>
 
@@ -81,20 +81,38 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
   <div class="w3-row" id="myGrid" style="margin-bottom:128px">
   <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic'; text-shadow: #fe00ea 0 0 5px;" id="contact">Featured</h2>
   <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
-    <div class="w3-third">
-          <!--Gift From My Invisible Twin-->
+  <!--Featured Gallery-->
+    <div class="w3-row">
+      <!--Gallery Row 1-->
+          <!--1. Gift From My Invisible Twin-->
+          <div class="w3-quarter">
           <a href="GiftMain.html">
             <div class="example">
-             <img src="projects/Thesis2/2023_cheny564_15.jpg" style="width:100%">
+             <img class="galleryRow" src="projects/Thesis2/2023_cheny564_15.jpg">
              <div class="fadedbox">
-               <div class="title text" style="transform: translateY(60%);"> Gift From My Invisible Twin </div>
+               <div class="title text"> Gift From My Invisible Twin </div>
              </div>
             </div>
 
            <!--End of Gift From My Invisible Twin-->
            </a>
+           </div>
 
-    <!--End Of Featured Image Display-->
+          <!--2. SaniTalk-->
+          <div class="w3-quarter">
+          <a href="saniTalk.html">
+            <div class="example">
+             <img class="galleryRow" src="projects/SaniTalk/SaniTalkCover.jpg">
+             <div class="fadedbox">
+               <div class="title text" style="transform: translateY(150%);"> SaniTalk </div>
+             </div>
+            </div>
+           <!--End of SaniTalk-->
+          </a>
+         </div>
+           <!--End Of Gallery Row 1-->
+           
+    <!--End Of Featured Gallery-->
     </div>
 
   <!--End Of Featured Section-->
@@ -105,12 +123,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
      <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic'; text-shadow: #fe00ea 0 0 5px;" id="contact">Commercial</h2>
      <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
        <div class="w3-third">
-         <img src="/w3images/rocks.jpg" style="width:100%">
-         <img src="/w3images/sound.jpg" style="width:100%">
-         <img src="/w3images/woods.jpg" style="width:100%">
-         <img src="/w3images/rock.jpg" style="width:100%">
-         <img src="/w3images/nature.jpg" style="width:100%">
-         <img src="/w3images/mist.jpg" style="width:100%">
        </div>
         <!--End Of Commercial Section-->
       </div>
@@ -120,16 +132,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
       <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic';text-shadow: #fe00ea 0 0 5px;" id="contact">Creative Coding</h2>
       <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
         <div class="w3-third">
-          <img src="/w3images/rocks.jpg" style="width:100%">
-          <img src="/w3images/sound.jpg" style="width:100%">
-          <img src="/w3images/woods.jpg" style="width:100%">
-          <img src="/w3images/rock.jpg" style="width:100%">
-          <img src="/w3images/nature.jpg" style="width:100%">
           
           <!--Curse Generator-->
       <a href="CG-CurseMain.html">
        <div class="example">
-        <img src="projects/CurseGenerator/CG-cover.gif" style="width:100%">
+        <img class="galleryRow" src="projects/CurseGenerator/CG-cover.gif" style="width:100%">
         <div class="fadedbox">
           <div class="title text"> Curse Generator </div>
         </div>
@@ -137,8 +144,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
       <!--End of Curse Generator-->
       </a>
 
-        <!--End Of CreativeCoding Image Display-->
+        <!--End Of CreativeCoding Gallery-->
         </div>
+
        <!--End Of Creative Coding Section-->
        </div>
 
@@ -147,12 +155,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
         <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic';text-shadow: #fe00ea 0 0 5px;" id="contact">Creative Object</h2>
         <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
           <div class="w3-third">
-            <img src="/w3images/rocks.jpg" style="width:100%">
-            <img src="/w3images/sound.jpg" style="width:100%">
-            <img src="/w3images/woods.jpg" style="width:100%">
-            <img src="/w3images/rock.jpg" style="width:100%">
-            <img src="/w3images/nature.jpg" style="width:100%">
-            <img src="/w3images/mist.jpg" style="width:100%">
           </div>
            <!--End Of Creative Object Section-->
          </div>
@@ -162,12 +164,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Earth Orbiter"}
         <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic';text-shadow: #fe00ea 0 0 5px;" id="contact">Digital Design</h2>
         <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
           <div class="w3-third">
-            <img src="/w3images/rocks.jpg" style="width:100%">
-            <img src="/w3images/sound.jpg" style="width:100%">
-            <img src="/w3images/woods.jpg" style="width:100%">
-            <img src="/w3images/rock.jpg" style="width:100%">
-            <img src="/w3images/nature.jpg" style="width:100%">
-            <img src="/w3images/mist.jpg" style="width:100%">
           </div>
            <!--End Of Digital Design Section-->
          </div>

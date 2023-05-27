@@ -1045,6 +1045,28 @@ html {
   .w3-hover-opacity:hover {
     opacity: 0.6;
   }
+  .hide{
+    display:none;
+    
+  }
+  .myDIV:hover + .hide {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    color: aqua;
+    text-shadow: #fe00ea 0 0 5px;
+    text-align: center;
+    font-family:'DO Futuristic'; 
+    font-size: x-large;
+    background-color: none;
+  }
+  .w3-opacity-title,
+  .w3-hover-opacity-title:hover {
+    opacity: 0.6;
+    text-align: center;
+
+  }
   .w3-opacity-off,
   .w3-hover-opacity-off:hover {
     opacity: 1;
@@ -1659,4 +1681,67 @@ html {
   .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important;
   }
-  
+  .example {
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+  }
+  .example .fadedbox {
+    background-color: #00003f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100%;
+    height:100%;
+  }
+
+
+  .example:hover .fadedbox {
+    opacity: 0.6;
+  }
+  .example .text {
+    /*-webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;*/
+    transition: all 300ms ease-out;
+    transform:translateY(45%);
+    display: flexbox;
+    position: relative;
+    text-align: center;
+    color: #fe00ea;
+    text-shadow: aqua 0 0 5px;
+    font-family:'DO Futuristic';
+
+  }
+  .example .title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    /*transition-delay: 0.2s;
+    transition-duration: 0.3s;*/
+    text-align: center;
+    display: flexbox;
+    position: relative;
+    color: #fe00ea;
+    text-shadow: aqua 0 0 5px;
+    font-family:'DO Futuristic';
+    transform:translateY(45%);
+  }
+  .example:hover .title,
+  .example:focus .title {
+    opacity: 1;
+    transform:translateY(45%);
+    text-align: center;
+    display: flexbox;
+    position: relative;
+  }

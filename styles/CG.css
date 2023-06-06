@@ -29,6 +29,7 @@ html {
   font-size: 2.7rem;
   text-align: center;
   position: relative;
+  font-family:'Betatron';
   transform: translateY(50%);
 }
 
@@ -87,7 +88,8 @@ body button {
   margin-right: auto;
   margin-top: 100px;
   display: block;
-  color: #a91b60;
+  color: #ff0178;
+  text-shadow: white 0 0 5px;
   font-family: avenir black, sans-serif;
   border: none;
   font-size: 2.7rem;
@@ -115,6 +117,12 @@ body label {
   font-size: large;
   font-family: avenir black, sans-serif;
 }
+body p{
+  text-align:center;
+  color:#fe00ea;
+  font-family:'Earth Orbiter Laser';
+  text-shadow: #d292ff 0 0 3px;
+}
 
 h1 {
   color: #ff0178;
@@ -125,11 +133,12 @@ header {
   background-color: #01008e;
   margin-bottom: 5%;
   padding: 1px;
-  color: #ff0178;
+  color: #d292ff;
+  text-shadow:aqua -0.5px 0.5px 2px;
   text-align: center;
   font-size: x-large;
   font-weight: normal;
-  font-family: avenir black, sans-serif;
+  font-family: 'Earth Orbiter';
   border-bottom-width: 2px;
   border-bottom-color: #9001f5;
   border-bottom-style: inset;
@@ -143,8 +152,8 @@ header button {
   margin-top: 3px;
   margin-bottom: 3px;
   display: block;
-  color: #9001f5;
-  font-family: avenir black, sans-serif;
+  color: aqua;
+  font-family: 'Earth Orbiter 3D';
   font-size: 30px;
   border-width: 5px;
   border-color: #9001f5;
@@ -167,10 +176,11 @@ section p {
   margin-right: auto;
   width: 70%;
   max-height: 500px;
-  font-family: avenir black, sans-serif;
+  font-family: 'Earth Orbiter';
   text-align: center;
   font-size: 0.8rem;
-  color: #fe00ea;
+  color: #d292ff;
+  text-shadow: aqua 0 0 2px;
   border: none;
   top: 100px;
 }

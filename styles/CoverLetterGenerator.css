@@ -25,7 +25,7 @@ html {
 
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Park Lane NF Regular";
+    font-family: "Fluence";
 }
 h1 {
     font-size: 36px;
@@ -54,10 +54,13 @@ body{
     margin:0;
 }
 
-p{
-    font-family:"Avenir";
+p,
+label{
+    font-family:"Baskerville";
     color:#FDB501;
+
 }
+
 
 .CLG-center{
     text-align:center;
@@ -74,12 +77,15 @@ p{
     overflow: auto;
 }
 
-.CLG-input{
+.CLG-input-small{
     padding: 8px;
     display: block;
     border: none;
     border-bottom: 1px solid #191919;
     width: 100%;
+    height:50px;
+    background-color: #191919;
+    color:#FED600;
 }
 
 .CLG-navy,
@@ -185,12 +191,16 @@ p{
     padding-top: 48px !important;
     padding-bottom: 48px !important;
   }
+  .CLG-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
   .CLG-button{
     border: none;
     display: inline-block;
-    width:120px;
+    width:140px;
     height:100px;
-    /*padding: 8px 16px;*/
+    padding: 8px 16px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
@@ -199,6 +209,23 @@ p{
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
+  }
+  .CLG-submit{
+    border-width: 2px;
+    display: inline-block;
+    width:140px;
+    height:87px;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color:#FDB501;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-color:#FED600;
+
   }
 
   .CLG-margin {
@@ -242,5 +269,6 @@ p{
     margin-left:150px
   }
   .CLG-half {
-    width:49.99999%
+    width:48%;
+    display:inline-block;
   }

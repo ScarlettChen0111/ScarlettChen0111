@@ -1,7 +1,8 @@
-let CL = document.getElementById("CLText")
-let CLsubmit = document.getElementById("CLsubmit")
-
-CLsubmit.addEventListener("click", coverLetter)
+let CL = document.getElementById("CLText");
+let CLsubmit = document.getElementById("CLsubmit");
+let CLguide = document.getElementById("CLguide");
+let CLGuide = document.getElementById("CLGuide");
+CLsubmit.addEventListener("click", coverLetter);
 
 
 function coverLetter(){
@@ -44,4 +45,6 @@ function coverLetter(){
   CLText.innerHTML += CLG[`${num}`];
 
 }
+
+
 

@@ -29,20 +29,23 @@ function coverLetter(){
   let degree = document.getElementById("CLIdegree").value 
   let location = document.getElementById("CLIschoollocation").value
   let major = document.getElementById("CLImajor").value
+  let portfolio = document.getElementById("CLIportfolio").value
   
 
   let CLIG = [`Dear ${recipient},<br><br>My name is ${NAME}. I am writing to express my strong interest in the ${job} position at ${company}, as advertised on ${where}. As a recently graduated international student with a solid educational foundation, unique multicultural experiences, and a 
   strong desire for professional growth, I am passionate about the opportunity to contribute my skills and knowledge to your esteemed organization. 
+  <br><br>I am drawn to ${company} because of its reputation for excellence, innovative approach, and commitment to ${reason}. I am particularly inspired by <span style = "color: aqua">[specific project/achievement]</span> and the organization's dedication to making a positive impact in ${relevant}. I am eager to leverage my skills and contribute to ${company}’s continued success and growth.
+  <br><br>During my time as a student, I actively worked on my portfolio which demonstrates a broad spectrum of design domains, 
+  and sought opportunities to gain practical experience and enhance my skills. I had worked at ${previouscompany} as ${previous} for <span style = "color: aqua">[length of THIS experience]</span>, where I had the opportunity to apply my ${elaborate} to real-world projects. I successfully ${achievement}. These experiences allowed me to develop a deep understanding of ${relevant},
+  sharpen my technical abilities, and collaborate effectively within interdisciplinary teams.
   <br><br>As an international student, I have learned to adapt quickly to new environments, embrace diversity, and be ready for challenges at any time. 
-  Living and studying in a different country is not easy. The overseas experience has honed my cross-cultural competencies, communication skills, and ability to thrive under pressure. I believe that my international background brings a unique perspective and a global mindset, which can be utilized for creative problem-solving and building a diverse workspace. 
+  Living and studying in a different country is not easy. The overseas experience has honed my cross-cultural competencies, communication skills, and ability to thrive under pressure. I believe that my international background brings a unique perspective and a global mindset, which can be utilized by ${company} for creative problem-solving and building a diverse workspace. 
   <br><br>I recently completed my ${degree} from ${school} in ${location}, where I specialized in ${major}. 
   Throughout my academic journey, I have gained comprehensive knowledge and practical experience in ${skills}. My coursework has equipped me with strong critical thinking, problem-solving, and analytical skills, enabling me to approach complex challenges with confidence. Additionally, my studies have fostered effective communication, teamwork, and project management skills, which I believe are essential for success in the real world. 
-  <br><br>During my time as a student, I actively sought opportunities to gain practical experience and enhance my skills. I had worked at ${previouscompany} as ${previous} for <span style = "color: aqua">[length of THIS experience]</span>, where I had the opportunity to apply my ${elaborate} to real-world projects. I successfully ${achievement}. These experiences allowed me to develop a deep understanding of ${relevant},
-  sharpen my technical abilities, and collaborate effectively within interdisciplinary teams.
-  <br><br>I am drawn to ${company} because of its reputation for excellence, innovative approach, and commitment to ${reason}. I am particularly inspired by <span style = "color: aqua">[specific project/achievement]</span> and the organization's dedication to making a positive impact in ${relevant}. I am eager to leverage my skills and contribute to ${company}’s continued success and growth.
   <br><br>I am currently living in ${country} with ${status}. My Employment Authorization starts from ${start}, and ends ${end}. However, <span style = "color: aqua">[A little bit about your future plan in the target country]</span>
   <br><br>Thank you for considering my application. I have attached my resume for your review. I would welcome the opportunity to discuss how my qualifications align with ${company}'s needs in more detail. I am available for an interview at your convenience, either in person or via video call. <br><br>Thank you again for your time and consideration. I look forward to the possibility of contributing to ${company}'s success as a recently graduated international student. 
-  Please feel free to contact me at ${phone} or ${email} if you require any further information. 
+  Please feel free to contact me at ${phone} or ${email} if you require any further information. A broader view of my projects can be explored by visiting my portfolio website at ${portfolio}.
+
   <br><br>Sincerely, <br><br>${NAME}`]
   //clear page//
   CLI.innerHTML = "";

@@ -43,7 +43,7 @@ function coverLetter(){
   <br><br>I recently completed my ${degree} from ${school} in ${location}, where I specialized in ${major}. 
   Throughout my academic journey, I have gained comprehensive knowledge and practical experience in ${skills}. My coursework has equipped me with strong critical thinking, problem-solving, and analytical skills, enabling me to approach complex challenges with confidence. Additionally, my studies have fostered effective communication, teamwork, and project management skills, which I believe are essential for success in the real world. 
   <br><br>I am currently living in ${country} with ${status}. My Employment Authorization starts from ${start}, and ends ${end}. However, <span style = "color: aqua">[A little bit about your future plan in the target country]</span>
-  <br><br>Thank you for considering my application. I have attached my resume for your review. I would welcome the opportunity to discuss how my qualifications align with ${company}'s needs in more detail. I am available for an interview at your convenience, either in person or via video call. <br><br>Thank you again for your time and consideration. I look forward to the possibility of contributing to ${company}'s success as a recently graduated international student. 
+  <br><br>Thank you for your time and consideration. I look forward to the possibility of contributing to ${company}'s success as a recently graduated international student. 
   Please feel free to contact me at ${phone} or ${email} if you require any further information. A broader view of my projects can be explored by visiting my portfolio website at ${portfolio}.
 
   <br><br>Sincerely, <br><br>${NAME}`]

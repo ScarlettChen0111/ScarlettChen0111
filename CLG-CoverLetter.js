@@ -21,6 +21,7 @@ function coverLetter(){
   let relevant = document.getElementById("CLrelevant").value 
   let where = document.getElementById("CLwhere").value 
   let previouscompany = document.getElementById("CLpreviouscompany").value
+  let portfolio = document.getElementById("CLGportfolio").value
 
   let CLG = [`Dear ${recipient},<br><br>
   My name is ${NAME}. I am writing to express my keen interest in the ${job} position at ${company}, as advertised on ${where}. With my strong qualifications and passion for ${relevant}, I am confident that I can make a valuable contribution to your organization.
@@ -29,7 +30,7 @@ function coverLetter(){
   <br><br>  What sets me apart is my <span style = "color: aqua">[unique combination of skills/experiences/qualities]</span>. I am a highly motivated and adaptable professional, with a strong attention to detail and a proven track record of delivering results. I thrive in fast-paced environments, and my excellent problem-solving and communication skills enable me to effectively collaborate with cross-functional teams.
   Moreover, I am impressed by the company's dedication to ${reason}. The company's culture and value align perfectly with my own values, making me eager to contribute to your team and help drive ${company}'s continued success.
   <br><br>  I am confident that my skills, experience, and enthusiasm make me a strong candidate for the ${job} position. I am excited about the opportunity to join ${company} and contribute to its ongoing growth. I believe that my passion for ${relevant} and my properly trained ${skills} would make me a valuable asset to your team.
-  Thank you for considering my application. I have attached my resume for your review. I would welcome the opportunity to discuss how my qualifications align with the requirements of the position in more detail. I can be reached at ${phone} or ${email}.
+  Thank you for considering my application. I have attached my resume for your review. I would welcome the opportunity to discuss how my qualifications align with the requirements of the position in more detail. I can be reached at ${phone} or ${email}. A broader view of my projects can be explored by visiting my portfolio website at ${portfolio}.
   Thank you for your time and consideration. I look forward to the possibility of contributing my skills and expertise to ${company}.
   <br><br>Sincerely,
   <br>${NAME}`]

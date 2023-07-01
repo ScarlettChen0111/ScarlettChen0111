@@ -25,28 +25,30 @@ function coverLetter(){
   let status = document.getElementById("CLIstatus").value
   let start = document.getElementById("CLIstart").value
   let end = document.getElementById("CLIend").value 
-  let school = document.getElementById("CLIschool").value
-  let degree = document.getElementById("CLIdegree").value 
-  let location = document.getElementById("CLIschoollocation").value
-  let major = document.getElementById("CLImajor").value
+  //let school = document.getElementById("CLIschool").value
+  //let degree = document.getElementById("CLIdegree").value 
+  //let location = document.getElementById("CLIschoollocation").value
+  //let major = document.getElementById("CLImajor").value
   let portfolio = document.getElementById("CLIportfolio").value
   
 
-  let CLIG = [`Dear ${recipient},<br><br>My name is ${NAME}. I am writing to express my strong interest in the ${job} position at ${company}, as advertised on ${where}. As a recently graduated international student with a solid educational foundation, unique multicultural experiences, and a 
-  strong desire for professional growth, I am passionate about the opportunity to contribute my skills and knowledge to your esteemed organization. 
-  <br><br>I am drawn to ${company} because of its reputation for excellence, innovative approach, and commitment to ${reason}. I am particularly inspired by <span style = "color: aqua">[specific project/achievement]</span> and the organization's dedication to making a positive impact in ${relevant}. I am eager to leverage my skills and contribute to ${company}’s continued success and growth.
-  <br><br>During my time as a student, I actively worked on my portfolio which demonstrates a broad spectrum of design domains, 
-  and sought opportunities to gain practical experience and enhance my skills. I had worked at ${previouscompany} as ${previous} for <span style = "color: aqua">[length of THIS experience]</span>, where I had the opportunity to apply my ${elaborate} to real-world projects. I successfully ${achievement}. These experiences allowed me to develop a deep understanding of ${relevant},
-  sharpen my technical abilities, and collaborate effectively within interdisciplinary teams.
-  <br><br>As an international student, I have learned to adapt quickly to new environments, embrace diversity, and be ready for challenges at any time. 
-  Living and studying in a different country is not easy. The overseas experience has honed my cross-cultural competencies, communication skills, and ability to thrive under pressure. I believe that my international background brings a unique perspective and a global mindset, which can be utilized by ${company} for creative problem-solving and building a diverse workspace. 
-  <br><br>I recently completed my ${degree} from ${school} in ${location}, where I specialized in ${major}. 
-  Throughout my academic journey, I have gained comprehensive knowledge and practical experience in ${skills}. My coursework has equipped me with strong critical thinking, problem-solving, and analytical skills, enabling me to approach complex challenges with confidence. Additionally, my studies have fostered effective communication, teamwork, and project management skills, which I believe are essential for success in the real world. 
-  <br><br>I am currently living in ${country} with ${status}. My Employment Authorization starts from ${start}, and ends ${end}. However, <span style = "color: aqua">[A little bit about your future plan in the target country]</span>
-  <br><br>Thank you for your time and consideration. I look forward to the possibility of contributing to ${company}'s success as a recently graduated international student. 
-  Please feel free to contact me at ${phone} or ${email} if you require any further information. A broader view of my projects can be explored by visiting my portfolio website at ${portfolio}.
+  let CLIG = [`Dear ${recipient},
 
-  <br><br>Sincerely, <br><br>${NAME}`]
+  <br><br>My name is ${NAME}. I am writing to convey my deep interest in the “${job}" position as advertised on ${where}.
+  
+  <br><br>What captivates me about ${company} is its renowned reputation for ${reason}. The platform's unwavering commitment to <span style = "color: aqua">[elaborate about previous reason or add another one]</span>. I am ardently motivated to harness my abilities and make a meaningful contribution to ${company}'s ongoing success and relentless pursuit of innovation.
+  
+  <br><br>As an international student, living and studying in a foreign country is never easy. My communication skills, ability to adapt quickly to environments, and work under pressure have been fostered by seven years of overseas experience. Along with my international background, the qualities mentioned above give me full confidence in my ability to bring a unique perspective and a global mindset. These are qualities that I firmly believe ${company} can leverage for the purpose of creative problem-solving and the establishment of a dynamic, inclusive workspace.
+  
+  <br><br>Throughout my academic journey, I independently designed and coded my portfolio using HTML, CSS, and Javascript. It is a testament to my proficiency across a diverse range of design domains. Furthermore, I served as a ${previous} at ${previouscompany}, where I expertly applied my proficiency in ${elaborate} to real-world projects. <span style = "color:aqua">[Elaborate a little about your work…]</span>. In terms of ${relevant}, I not only <span style = "color: aqua">[add custom content]</span> but also successfully ${achievement}. This experience deepened my understanding of ${relevant}, honed my technical abilities, and enhanced my communication skills when participating in interdisciplinary collaboration.
+  
+  <br><br>I am currently residing in the ${country} under ${status}. My Employment Authorization commences on ${start}, and concludes on ${end}. It is noteworthy that, given my STEM major, I am eligible for an additional 24-month OPT extension, thereby enabling me to work without the necessity of an H1-B visa for a span of three years.
+  
+  <br><br>Thank you immensely for dedicating your time and consideration to my application. I eagerly anticipate the prospect of contributing to ${company}'s triumphs as a recently graduated international student. Should you require any further information, please do not hesitate to reach out to me at ${phone} or ${email}. For a more expansive view of my projects, kindly peruse my portfolio website at ${portfolio}.
+  
+  <br><br>Sincerely,
+  
+  <br><br>${NAME}`]
   //clear page//
   CLI.innerHTML = "";
   

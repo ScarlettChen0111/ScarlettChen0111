@@ -307,6 +307,22 @@ a {
   text-align: center;
   cursor: pointer;
   white-space: nowrap;
+
+}
+.w3-button2{
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: black; 
+  color:#6f00ff;
+  border: none; 
+  border-radius: 5px; 
+
 }
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -540,7 +556,7 @@ a {
 .w3-twothird,
 .w3-threequarter,
 .w3-quarter {
-  float: left;
+  float:inherit;
   width:100%;
 
 }
@@ -621,6 +637,7 @@ a {
   .w3-col.m9,
   .w3-threequarter {
     width: 74.99999%;
+    margin:auto;
   }
   .w3-col.m10 {
     width: 83.33333%;
@@ -1248,6 +1265,10 @@ a {
   color: aqua !important;
   background-color: #9001f5 !important;
 }
+.w3-button2:hover{
+  color:aqua !important;
+  
+}
 .w3-transparent,
 .w3-hover-none:hover {
   background-color: transparent !important;
@@ -1444,7 +1465,7 @@ a {
 }
 .w3-text-blue,
 .w3-hover-text-blue:hover {
-  color: #2196f3 !important;
+  color: #6ab2ff !important;
 }
 .w3-text-navy,
 .w3-hover-text-navy:hover {
@@ -1734,7 +1755,7 @@ a {
 
 }
 .example .title {
-  font-size: 2em;
+  font-size: 60px;
   text-transform: uppercase;
   opacity: 0;
   /*transition-delay: 0.2s;

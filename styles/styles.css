@@ -242,7 +242,6 @@ h6 {
 }
 
 .neonLightPink{
-  
   border:2px solid #ff81ee; 
   border-radius: 10px; 
   width:100%; 
@@ -253,7 +252,6 @@ h6 {
   margin-top:0px;}
 
 .neonLightAqua{
-
   border:2px solid aqua; 
   border-radius: 10px; 
   width:100%; 
@@ -266,7 +264,7 @@ h6 {
 
 .sectionHeader{
   font-family: 'Getboreg Hollow';
-  text-shadow: white 0 0 4px;
+  text-shadow: white 0 0 3px;
 }
 
 
@@ -293,22 +291,22 @@ h6 {
   content: attr(data-glitch);
   position: absolute;
   top: 0;
-  left: -2px;
+  left: -3px;
   width: 100%;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-before 3s infinite linear alternate-reverse;
+  animation: noise-before 2s infinite linear alternate-reverse;
 }
 
 .glitch:after {
   content: attr(data-glitch);
   position: absolute;
   top: 0;
-  left: 2px;
+  left: 3px;
   width: 100%;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-after 4s infinite linear alternate-reverse;
+  animation: noise-after 2s infinite linear alternate-reverse;
 }
 
 @keyframes noise-before {

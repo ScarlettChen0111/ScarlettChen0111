@@ -23,46 +23,22 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #00003f;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
+#main {margin-left: 0px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
 </head>
 <body class="w3-black">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="self-images/EYES_portfolio.jpg" style="width:100%">
-
-  <!--Icons-->
-  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-home w3-xxlarge" style="color:#9001f5;"></i>
-    <p style="color:#d292ff; font-family:'Earth Orbiter'">HOME</p>
-  </a>
-  <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge" style="color:#9001f5"></i>
-    <p style="color:#d292ff; font-family:'Earth Orbiter'">ABOUT</p>
-  </a>
-  <a href="projects.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge" style="color:#9001f5;"></i>
-    <p style="color:#d292ff; font-family:'Earth Orbiter'">PROJECTS</p>
-  </a>
-  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge" style="color:#9001f5;"></i>
-    <p style="color:#d292ff; font-family:'Earth Orbiter'">CONTACT</p>
-  </a>
-</nav>
-
 
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">HOME</a>
-    <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">ABOUT</a>
-    <a href="projects.html" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">PROJECTS</a>
-    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important; color:#9001f5; font-family:'Earth Orbiter'">CONTACT</a>
+<div class="w3-bottom w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-medium">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important; color:aqua; font-family:'Earth Orbiter'">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important; color:aqua; font-family:'Earth Orbiter'">ABOUT</a>
+    <a href="projects.html" class="w3-bar-item w3-button" style="width:25% !important; color:aqua; font-family:'Earth Orbiter'">PROJECTS</a>
+    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important; color:aqua; font-family:'Earth Orbiter'">CONTACT</a>
   </div>
 </div>
 
@@ -70,7 +46,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
 <div class="w3-padding-large" id="main">
   <!-- Name -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo sectionHeader w3-text-neon-pink">About</h1>
+    <div class="glitch-wrapper w3-center">
+      <div class="glitch w3-text-neon-pink w3-jumbo w3-center" data-glitch="About"
+      style="font-family: 'Getboreg Hollow';  margin-top:70px; text-shadow: #ffffff 0 0 1px;">About</div>
+    </div>
     <br>
     <br>
     <img src="self-images/about_profile.jpg" class="w3-image" style="max-width: 60%; margin-left: auto; margin-right: auto;" >
@@ -79,15 +58,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-
-
-
-
   <!-- FAQs, Skills, Download Resume And Facts -->
-  <div class="w3-content w3-justify w3-padding-64" id="about">
+  <div class="w3-content w3-justify w3-padding-32" id="about">
 
     <!-- Skills -->
     <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic'; text-shadow: #fe00ea 0 0 5px">Skills</h2>
@@ -131,12 +103,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    
-
-    
 
    <!--Download Resume-->
     <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic'; text-shadow: #fe00ea 0 0 5px">Download Resume</h2>
@@ -147,10 +113,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
      <br>
      <br>
      <br>
-     <br>
-     <br>
-     <br>
-
     <!--FAQs-->
     <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic'; text-shadow: #fe00ea 0 0 5px">FAQs</h2>
     <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
@@ -172,10 +134,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-
     <!--Facts-->
     <h2 class="w3-text-lavender" style="font-family: 'DO Futuristic'; text-shadow: #fe00ea 0 0 5px">Facts</h2>
     <hr style="width:200px; border-top: 1px solid #fe00ea;" class="w3-opacity" >
@@ -199,28 +157,38 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Avenir"}
     <!--End of FAQs, Download Resume And Facts-->
     </div>
 
-  
-    
-  
-
-    <!-- Educations -->
-
- 
-
-
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <form>
-    <button class="fa fa-instagram w3-hover-opacity" style="background-color: black; color:#ff0178; border: none" formaction="https://www.instagram.com/scarlett_cyf/"></button>
-    <button class="fa fa-linkedin w3-hover-opacity"  style="background-color: black; color:#ff0178; border: none" formaction="https://www.linkedin.com/in/yufei-scarlett-chen-b46b58200/"></button>
+ <!--Navigation Bar For Desktop-->
+ <div class="galleryRow w3-hide-small" style="padding-left:200px; padding-right:200px">
+  <form style="  margin-top: 100px; ">
+    <button class=" w3-text-aqua w3-button w3-large  w3-section" style="width: 200px; padding:15px; font-family:'DO Futuristic';" formaction="index.html">
+      <i class="fa fa-home w3-xlarge" ></i><br>Home</button>
     </form>
+  <form style=" margin-top: 100px; ">
+    <button class=" w3-text-aqua w3-button w3-large  w3-section" style="width: 200px; padding:15px; font-family:'DO Futuristic';" formaction="about.html">
+      <i class="fa fa-user w3-xlarge" ></i><br>About</button>
+    </form>
+  <form style=" margin-top: 100px; ">
+    <button class=" w3-text-aqua w3-button w3-large  w3-section" style="width: 200px; padding:15px; font-family:'DO Futuristic';" formaction="projects.html">
+      <i class="fa fa-eye w3-xlarge" ></i><br>Project</button>
+    </form>
+  <form style=" margin-top: 100px; ">
+    <button class=" w3-text-aqua w3-button w3-large  w3-section" style="width:200px; padding:15px; font-family:'DO Futuristic';" formaction="contact.html">
+      <i class="fa fa-envelope w3-xlarge" ></i><br>Contact</button>
+    <br>
+  </form>  
+  </div>
 
-    <!--copyright-->
-    <p class="w3-medium w3-text-purple">Copyright <span class="w3-medium w3-text-purple" style="font-family:'Montserrat'">©</span> 2023 Scarlett Chen</p>
+<!-- Footer -->
+<footer class="w3-xlarge w3-center" style="margin-bottom:40px;">
+<form>
+<button class="fa fa-instagram w3-hover-opacity" style="background-color: black; color:#ff81ee; border: none" formaction="https://www.instagram.com/scarlett_cyf/"></button>
+<button class="fa fa-linkedin w3-hover-opacity"  style="background-color: black; color:#ff81ee; border: none" formaction="https://www.linkedin.com/in/yufei-scarlett-chen-b46b58200/"></button>
+</form>
+<!--copyright-->
+<p class="w3-medium w3-text-purple">Copyright <span class="w3-medium w3-text-purple" style="font-family:'Montserrat'">©</span> 2023 Scarlett Chen</p>
+<!-- End footer -->
+</footer>
 
-  <!-- End footer -->
-  </footer>
 
 <!-- END PAGE CONTENT -->
 </div>

@@ -1,6 +1,8 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html {
-  box-sizing: border-box;
+  box-sizing:border-box;
+  position:relative;
+  margin:24px;
 }
 *,
 *:before,
@@ -13,7 +15,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  box-sizing:border-box;
   margin: 0;
+  position:relative;
 }
 article,
 aside,
@@ -230,7 +234,16 @@ h6 {
   font-weight: 400;
   margin: 10px 0;
 }
+/*.w3-main,
+#main {
+  transition: margin-left 0.4s;
+}*/
 
+.relative{
+  box-sizing:border-box;
+  position:relative;
+  margin:0;
+}
 .background {
   background-image: url('../images/jellyfish.gif');
   width:100%;
@@ -249,7 +262,8 @@ h6 {
   text-align:center; 
   margin-left: auto; 
   margin-right: auto;  
-  margin-top:0px;}
+  margin-top:0px;
+  display: flexbox;}
 
 .neonLightAqua{
   border:2px solid aqua; 
@@ -260,6 +274,18 @@ h6 {
   margin-left: auto; 
   margin-right: auto;  
   margin-top:0px;
+  display: flexbox;
+}
+
+.neonLightAquaPage{
+  border:3px solid aqua; 
+  border-radius: 10px; 
+  width:100%; 
+  box-shadow: 0 0 20px aqua inset, 0 0 20px aquamarine  ;
+  text-align:center; 
+  display: flexbox;
+
+
 }
 
 .sectionHeader{
@@ -732,10 +758,7 @@ a {
   text-align: left;
   padding: 8px 16px;
 }
-.w3-main,
-#main {
-  transition: margin-left 0.4s;
-}
+
 .w3-modal {
   z-index: 3;
   display: none;

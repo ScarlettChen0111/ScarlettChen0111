@@ -239,6 +239,11 @@ h6 {
   transition: margin-left 0.4s;
 }*/
 
+.bottomBarSection{
+  margin-left:-6px;
+  margin-right:0 !important;
+}
+
 .relative{
   box-sizing:border-box;
   position:relative;
@@ -1119,7 +1124,7 @@ a {
 }
 .w3-top,
 .w3-bottom {
-  position: fixed;
+  position:absolute;
   width: 100%;
   z-index: 1;
 }

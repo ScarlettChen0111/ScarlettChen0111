@@ -284,8 +284,19 @@ h6 {
   box-shadow: 0 0 20px aqua inset, 0 0 20px aquamarine  ;
   text-align:center; 
   display: flexbox;
+}
 
+.neonLightPinkPage{
+  border:3px solid aqua; 
+  border-radius: 10px; 
+  width:100%; 
+  box-shadow: 0 0 20px aqua inset, 0 0 20px aquamarine  ;
+  text-align:center; 
+  display: flexbox;
+}
 
+.neonPadding{
+  padding:16px;
 }
 
 .sectionHeader{

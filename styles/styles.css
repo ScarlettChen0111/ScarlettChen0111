@@ -278,25 +278,34 @@ h6 {
 }
 
 .neonLightAquaPage{
-  border:3px solid aqua; 
-  border-radius: 10px; 
+  border:1.5px solid aqua; 
+  border-radius: 6px; 
   width:100%; 
-  box-shadow: 0 0 20px aqua inset, 0 0 20px aquamarine  ;
+  box-shadow: 0 0 12px aqua inset, 0 0 12px aquamarine  ;
   text-align:center; 
   display: flexbox;
 }
 
 .neonLightPinkPage{
-  border:3px solid aqua; 
-  border-radius: 10px; 
+  border:1.5px solid #ff81ee; 
+  border-radius: 6px; 
   width:100%; 
-  box-shadow: 0 0 20px aqua inset, 0 0 20px aquamarine  ;
+  box-shadow:0 0 12px #ff81ee inset, 0 0 12px #f93bdf, 0 0 12px #9001f5  ;
+  text-align:center; 
+  display: flexbox;
+}
+
+.neonLightAquamarinePage{
+  border:1.5px solid aquamarine; 
+  border-radius: 6px; 
+  width:100%; 
+  box-shadow: 0 0 12px aquamarine inset, 0 0 12px aqua  ;
   text-align:center; 
   display: flexbox;
 }
 
 .neonPadding{
-  padding:16px;
+  padding:6px;
 }
 
 .sectionHeader{
@@ -319,7 +328,7 @@ h6 {
   position: relative;
   font-size: 100px;
   font-weight: 100;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0px;
   z-index: 0.5;
 }
@@ -330,6 +339,7 @@ h6 {
   top: 0;
   left: -4px;
   width: 100%;
+  color:#f93bdf;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-before 1s infinite linear alternate-reverse;
@@ -341,6 +351,7 @@ h6 {
   top: 0;
   left: 4px;
   width: 100%;
+  color:aqua;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-after 1s infinite linear alternate-reverse;

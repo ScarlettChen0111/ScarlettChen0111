@@ -260,7 +260,7 @@ h6 {
 }
 
 .neonLightPink{
-  border:2px solid #ff81ee; 
+  border:2.5px solid #ff81ee; 
   border-radius: 10px; 
   width:100%; 
   box-shadow: 0 0 15px #ff81ee inset, 0 0 15px #f93bdf, 0 0 20px #9001f5 ;
@@ -271,8 +271,8 @@ h6 {
   display: flexbox;}
 
 .neonLightAqua{
-  border:2px solid aqua; 
-  border-radius: 10px; 
+  border:2.5px solid aqua; 
+  border-radius: 6px; 
   width:100%; 
   box-shadow: 0 0 15px aqua inset, 0 0 15px aquamarine  ;
   text-align:center; 
@@ -293,7 +293,7 @@ h6 {
 
 .neonLightPinkPage{
   border:1.5px solid #ff81ee; 
-  border-radius: 6px; 
+  border-radius: 10px; 
   width:100%; 
   box-shadow:0 0 12px #ff81ee inset, 0 0 12px #f93bdf, 0 0 12px #9001f5  ;
   text-align:center; 
@@ -311,6 +311,10 @@ h6 {
 
 .neonPadding{
   padding:6px;
+}
+
+.neonPaddingIndex{
+  padding:10px;
 }
 
 .sectionHeader{
@@ -2044,7 +2048,7 @@ a {
   cursor: pointer;
   height: auto;
   position: relative;
-  overflow: hidden;
+  overflow:visible;
   width: auto;
   text-align: center;
 }
@@ -2073,7 +2077,6 @@ a {
   -o-transition: all 300ms ease-out;
   -ms-transition: all 300ms ease-out;*/
   transition: all 300ms ease-out;
-  transform:translateY(100%);
   display: flexbox;
   position: relative;
   text-align: center;
@@ -2083,7 +2086,7 @@ a {
 
 }
 .example .title {
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   opacity: 0;
   /*transition-delay: 0.2s;
@@ -2094,12 +2097,31 @@ a {
   color: #fe00ea;
   text-shadow: aqua 0 0 5px;
   font-family:'DO Futuristic';
-  transform:translateY(100%);
+}
+.example .smallTitle {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0;
+  /*transition-delay: 0.2s;
+  transition-duration: 0.3s;*/
+  text-align: center;
+  display: flexbox;
+  position: relative;
+  color: #fe00ea;
+  text-shadow: aqua 0 0 5px;
+  font-family:'DO Futuristic';
 }
 .example:hover .title,
 .example:focus .title {
   opacity: 1;
-  transform:translateY(100%);
+  text-align: center;
+  display: flexbox;
+  position: relative;
+}
+
+.example:hover .smallTitle,
+.example:focus .smallTitle {
+  opacity: 1;
   text-align: center;
   display: flexbox;
   position: relative;

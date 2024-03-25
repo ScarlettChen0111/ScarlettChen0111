@@ -250,13 +250,35 @@ h6 {
   margin:0;
 }
 .background {
-  background-image: url('../images/jellyfish.gif');
+  background-image: url('../images/room_lights_off.png');
   width:100%;
   background-position: center;
-  background-size: cover;
+  background-size:auto;
   overflow: hidden;
+  /*
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
+}
+
+.neonLightWhite{
+  border:2.5px solid white; 
+  border-radius: 5px; 
+  width:100%; 
+  box-shadow: 0 0 15px white inset, 0 0 15px white, 0 0 20px #b0ceff;
+  text-align:center; 
+  margin-left: auto; 
+  margin-right: auto;  
+  margin-top:0px;
+  display: flexbox;
+}
+
+.neonLightWhitePage{
+  border:1.5px solid white; 
+  border-radius: 5px; 
+  width:100%; 
+  box-shadow: 0 0 12px white inset, 0 0 12px #b0ceff ;
+  text-align:center; 
+  display: flexbox;
 }
 
 .neonLightPink{
@@ -322,6 +344,8 @@ h6 {
 }
 
 
+
+
 .glitch-wrapper {
   width: 100%;
   height: 100%;
@@ -347,7 +371,7 @@ h6 {
   top: 0;
   left: -4px;
   width: 100%;
-  color:#f93bdf;
+  color:#8ab5fb;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-before 1s infinite linear alternate-reverse;
@@ -359,7 +383,7 @@ h6 {
   top: 0;
   left: 4px;
   width: 100%;
-  color:aqua;
+  color:#9ABDF5;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-after 1s infinite linear alternate-reverse;
@@ -1473,7 +1497,7 @@ a {
   font-size: 64px !important;
 }
 .w3-superBig{
-  font-size:100px !important;
+  font-size:80px !important;
 }
 .w3-left-align {
   text-align: left !important;
@@ -1585,8 +1609,9 @@ a {
   float: right !important;
 }
 .w3-button:hover {
-  color: aquamarine !important;
-  background-color: rgb(0, 11, 11) !important;
+  color: #57b9ff !important;
+  background-color: #000d24 !important;
+  opacity:0.8;
 }
 .w3-button2:hover{
   color:aqua !important;
@@ -1685,12 +1710,12 @@ a {
 .w3-navy,
 .w3-hover-navy:hover {
   color: #fff !important;
-  background-color: #01008e !important;
+  background-color: #001f8f !important;
 }
 .w3-dark-navy,
 .w3-hover-dark-navy:hover {
   color: #fff !important;
-  background-color: #00003f!important;
+  background-color: #00112d!important;
 }
 .w3-rose,
 .w3-hover-rose:hover {
@@ -1890,10 +1915,30 @@ a {
 .w3-hover-text-yellow:hover {
   color: #d2be0e !important;
 }
+
 .w3-text-white,
 .w3-hover-text-white:hover {
   color: #fff !important;
 }
+.w3-text-tenshi,
+.w3-hover-text-tenshi:hover{
+  color: #62c6ff !important;
+}
+
+.w3-text-tenshi-umi,
+.w3-hover-text-tenshi-umi:hover{
+  color:#86c8ff !important;
+}
+
+.w3-text-tenshi-deep,
+.w3-hover-text-tenshi-deep:hover{
+  color:#006de9 !important;
+}
+
+.w3-glow-tenshi{
+  text-shadow:#b7e2ff 0 0 1px;
+}
+
 .w3-text-black,
 .w3-hover-text-black:hover {
   color: #000 !important;
@@ -2053,7 +2098,7 @@ a {
   text-align: center;
 }
 .example .fadedbox {
-  background-color: #00003f;
+  background-color: #00091d;
   position:absolute;
   top: 0;
   left: 0;
@@ -2069,7 +2114,7 @@ a {
 
 
 .example:hover .fadedbox {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .example .text {
   /*-webkit-transition: all 300ms ease-out;
@@ -2080,8 +2125,8 @@ a {
   display: flexbox;
   position: relative;
   text-align: center;
-  color: #fe00ea;
-  text-shadow: aqua 0 0 5px;
+  color: #b7e2ff;
+  text-shadow: white 0 0 5px;
   font-family:'DO Futuristic';
 
 }
@@ -2094,8 +2139,8 @@ a {
   text-align: center;
   display: flexbox;
   position: relative;
-  color: #fe00ea;
-  text-shadow: aqua 0 0 5px;
+  color: #b7e2ff;
+  text-shadow: white 0 0 5px;
   font-family:'DO Futuristic';
 }
 .example .smallTitle {
@@ -2107,8 +2152,8 @@ a {
   text-align: center;
   display: flexbox;
   position: relative;
-  color: #fe00ea;
-  text-shadow: aqua 0 0 5px;
+  color: #b7e2ff;
+  text-shadow: white 0 0 5px;
   font-family:'DO Futuristic';
 }
 .example:hover .title,

@@ -260,6 +260,19 @@ h6 {
   background-attachment: fixed;*/
 }
 
+.backgroundSmall {
+  background-image: url('../images/room_lights_off_small.jpg');
+  width:100%;
+  background-position: center;
+  background-size:auto;
+  overflow: hidden;
+  /*
+  background-repeat: repeat;
+  background-attachment: fixed;*/
+}
+
+
+
 .neonLightWhite{
   border:2.5px solid white; 
   border-radius: 5px; 

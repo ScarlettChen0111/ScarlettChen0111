@@ -264,7 +264,7 @@ h6 {
   background-image: url('../images/room_lights_off_small_2.png');
   width:100%;
   background-position: center;
-  background-size:auto;
+  background-size:cover;
   overflow: hidden;
   /*
   background-repeat: repeat;

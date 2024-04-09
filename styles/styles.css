@@ -261,7 +261,7 @@ h6 {
 }
 
 .backgroundSmall {
-  background-image: url('../images/room_lights_off_small.jpg');
+  background-image: url('../images/room_lights_off_small_2.png');
   width:100%;
   background-position: center;
   background-size:auto;
@@ -1624,7 +1624,7 @@ a {
 .w3-button:hover {
   color: #57b9ff !important;
   background-color: #000d24 !important;
-  opacity:0.8;
+  opacity:0.7;
 }
 .w3-button2:hover{
   color:aqua !important;

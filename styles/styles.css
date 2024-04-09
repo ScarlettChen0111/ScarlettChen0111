@@ -579,8 +579,8 @@ h6 {
 
 .galleryRow {
   width:100%;
-  display: flex;
-  justify-content: space-around; /* Adjust as needed: space-between, space-around, center, etc. */
+  display:flex;
+  justify-content:center/* Adjust as needed: space-between, space-around, center, etc. */
 }
 
 .galleryColumn {

@@ -54,6 +54,7 @@ template {
 }
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -1622,8 +1623,8 @@ a {
   float: right !important;
 }
 .w3-button:hover {
-  color: #57b9ff !important;
-  background-color: #000d24 !important;
+  color: #0077ff !important;
+  background-color: #cde4ff !important;
   opacity:0.7;
 }
 .w3-button2:hover{
@@ -1727,9 +1728,26 @@ a {
 }
 .w3-dark-navy,
 .w3-hover-dark-navy:hover {
-  color: #fff !important;
+  color: #fff !important;  
   background-color: #00112d!important;
 }
+
+.w3-tenshi,
+.w3-hover-tenshi:hover {
+  color: #fff !important;
+  background-color:  #62c6ff!important;
+}
+
+.w3-tenshi-deep,
+.w3-hover-tenshi-deep:hover {
+  color: #fff !important;
+  background-color:  #006de9!important;
+}
+
+
+
+
+
 .w3-rose,
 .w3-hover-rose:hover {
   color: #fff !important;
@@ -1768,7 +1786,7 @@ a {
 .w3-white,
 .w3-hover-white:hover {
   color: #000 !important;
-  background-color: #fff !important;
+  background-color: #faf9f6 !important;
 }
 .w3-black,
 .w3-hover-black:hover {
@@ -1946,6 +1964,11 @@ a {
 .w3-text-tenshi-deep,
 .w3-hover-text-tenshi-deep:hover{
   color:#006de9 !important;
+}
+
+.w3-text-charcoal,
+.w3-hover-text-charcoal:hover{
+  color: #171717 !important;
 }
 
 .w3-glow-tenshi{

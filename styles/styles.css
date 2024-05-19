@@ -196,23 +196,23 @@ html {
   overflow-x: hidden;
 }
 h1 {
-  font-size: 36px;
+  font-size: 30px;
   color:#ff0178;
 }
 h2 {
-  font-size: 30px;
-}
-h3 {
   font-size: 24px;
 }
-h4 {
+h3 {
   font-size: 20px;
 }
-h5 {
+h4 {
   font-size: 18px;
 }
+h5 {
+  font-size: 15px;
+}
 h6 {
-  font-size: 16px;
+  font-size: 12px;
 }
 .w3-serif {
   font-family: serif;
@@ -1743,6 +1743,12 @@ a {
 .w3-hover-tenshi-deep:hover {
   color: #fff !important;
   background-color:  #006de9!important;
+}
+
+.w3-tenshi-light,
+.w3-hover-tenshi-light:hover {
+  color: #fff !important;
+  background-color:  #dfeeff!important;
 }
 
 

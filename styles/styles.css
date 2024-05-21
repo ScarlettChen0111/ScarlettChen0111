@@ -2170,7 +2170,7 @@ a {
   text-align: center;
   color: #b7e2ff;
   text-shadow: white 0 0 5px;
-  font-family:'DO Futuristic';
+  font-family:'Avenir';
 
 }
 .example .title {
@@ -2184,7 +2184,7 @@ a {
   position: relative;
   color: #b7e2ff;
   text-shadow: white 0 0 5px;
-  font-family:'DO Futuristic';
+  font-family:'Avenir;
 }
 .example .smallTitle {
   font-size: 12px;
@@ -2197,7 +2197,7 @@ a {
   position: relative;
   color: #b7e2ff;
   text-shadow: white 0 0 5px;
-  font-family:'DO Futuristic';
+  font-family:'Avenir';
 }
 .example:hover .title,
 .example:focus .title {

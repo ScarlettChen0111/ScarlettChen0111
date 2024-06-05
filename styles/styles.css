@@ -196,11 +196,11 @@ html {
   overflow-x: hidden;
 }
 h1 {
-  font-size: 30px;
+  font-size: 34px;
   color:#ff0178;
 }
 h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 h3 {
   font-size: 20px;
@@ -577,7 +577,17 @@ h6 {
 }
 
 
+.galleryShadow{
+  box-shadow: 0px 2px 3px 0px #d0d1d2;
+}
 
+.galleryShadowBig{
+  box-shadow: 0px 4px 6px 0px #d0d1d2;
+}
+
+.galleryInnerShadow{
+  box-shadow: inset 1px 1px 10px 0px #d0d1d2;
+}
 
 .galleryRow {
   width:100%;
@@ -1793,8 +1803,15 @@ a {
 .w3-white,
 .w3-hover-white:hover {
   color: #000 !important;
-  background-color: #faf9f6 !important;
+  background-color: #ffffff!important;
 }
+
+.w3-highlight,
+.w3-hover-highlight:hover {
+  color: #000 !important;
+  background-color: #f6f7fa!important;
+}
+
 .w3-black,
 .w3-hover-black:hover {
   color: #fff !important;

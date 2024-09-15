@@ -234,12 +234,17 @@ h5,
 h6 {
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
-  margin: 10px 0;
+  /*margin: 10px 0;*/
 }
 /*.w3-main,
 #main {
   transition: margin-left 0.4s;
 }*/
+
+/* Text Indent */
+.firstLineIndent{
+  text-indent: 24px;
+}
 
 .bottomBarSection{
   margin-left:-6px;
@@ -273,7 +278,36 @@ h6 {
   background-attachment: fixed;*/
 }
 
+/* Two Parallel divs*/
+.flex-parent-element {
+  display: flex;
+  width: 100%;
+  margin:auto;
+}
+.flex-child-element {
+  flex:1;
+  margin:auto;
+}
 
+/* Glassmorphism */
+
+.card {
+  width: 400px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  /* other styles */
+	background: rgba(255, 255, 255, .3);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.2rem;
+}
+  
 
 .neonLightWhite{
   border:2.5px solid white; 
@@ -582,7 +616,7 @@ h6 {
 }
 
 .galleryShadowBig{
-  box-shadow: 0px 4px 6px 0px #d0d1d2;
+  box-shadow: 0px 0px 20px 0px #000c4e;
 }
 
 .galleryInnerShadow{
@@ -1634,8 +1668,8 @@ a {
   float: right !important;
 }
 .w3-button:hover {
-  color: #0077ff !important;
-  background-color: #cde4ff !important;
+  color: #9ed0ff !important;
+  background-color: #050035 !important;
   opacity:0.7;
 }
 .w3-button2:hover{
@@ -1809,7 +1843,8 @@ a {
 .w3-highlight,
 .w3-hover-highlight:hover {
   color: #000 !important;
-  background-color: #f6f7fa!important;
+  background-color: rgba(0, 4, 28, .3)!important;
+  border-radius: 1rem;
 }
 
 .w3-black,
@@ -1977,12 +2012,36 @@ a {
 }
 .w3-text-tenshi,
 .w3-hover-text-tenshi:hover{
-  color: #62c6ff !important;
+  color:#9ed0ff;
+  /*
+   background: -webkit-linear-gradient(90deg, #006de9 20%, #bde7ff 50%, #006de9 80%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important
+  /*color: #62c6ff !important;*/
 }
 
-.w3-text-tenshi-umi,
-.w3-hover-text-tenshi-umi:hover{
-  color:#86c8ff !important;
+.w3-text-tenshi-light,
+w3-hover-text-tenshi-light:hover{
+  color: #eff8ff !important;
+}
+
+
+.w3-icon-tenshi,
+.w3-hover-icon-tenshi:hover{
+    background: -webkit-linear-gradient(90deg, #006de9, #bde7ff, #006de9)!important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important
+}
+
+
+.w3-bar-tenshi,
+.w3-hover-bar-tenshi:hover{
+    background: linear-gradient(0deg, #006de9, #bde7ff, #006de9)!important;
+}
+
+.w3-bar-tenshi-deep,
+.w3-hover-bar-tenshi-deep:hover{
+    background-color:#000a1f !important;
 }
 
 .w3-text-tenshi-deep,
